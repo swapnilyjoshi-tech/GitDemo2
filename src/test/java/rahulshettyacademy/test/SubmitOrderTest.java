@@ -119,6 +119,9 @@ public class SubmitOrderTest extends BaseTest {
 		
 		landingPageData.setProduct("ADIDAS ORIGINALXXXX");
 		System.out.println("After each run"+landingPageData.getProduct());
+		System.out.println("commit from gixx");
+		System.out.println("commit from gixx2");
+
 	}
 
 	@DataProvider
@@ -127,6 +130,8 @@ public class SubmitOrderTest extends BaseTest {
 				new TypeReference<List<LandingPageData>>() {
 				});
 
+		
+		
 	}
 	
 

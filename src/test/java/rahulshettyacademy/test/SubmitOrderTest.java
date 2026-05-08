@@ -121,6 +121,7 @@ public class SubmitOrderTest extends BaseTest {
 		System.out.println("After each run"+landingPageData.getProduct());
 		System.out.println("commit from gixx");
 		System.out.println("commit from gixx2");
+		System.out.println("commit from gixx3");
 
 	}
 

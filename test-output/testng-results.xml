@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-07T16:18:03 IST" name="Suite" finished-at="2026-05-07T16:18:13 IST" duration-ms="10176">
+    <groups>
+      <group name="Errorhandling">
+        <method signature="ErrorValiationTest.LoginErrorValiation()[pri:0, instance:rahulshettyacademy.test.ErrorValiationTest@54d9d12d]" name="LoginErrorValiation" class="rahulshettyacademy.test.ErrorValiationTest"/>
+      </group> <!-- Errorhandling -->
+    </groups>
+    <test started-at="2026-05-07T16:18:03 IST" name="Error validation Test" finished-at="2026-05-07T16:18:13 IST" duration-ms="10176">
+      <class name="rahulshettyacademy.test.ErrorValiationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.test.ErrorValiationTest@54d9d12d]" started-at="2026-05-07T16:18:03 IST" name="launchApplication" finished-at="2026-05-07T16:18:08 IST" duration-ms="5208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValiation()[pri:0, instance:rahulshettyacademy.test.ErrorValiationTest@54d9d12d]" started-at="2026-05-07T16:18:08 IST" name="LoginErrorValiation" finished-at="2026-05-07T16:18:09 IST" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValiation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshettyacademy.test.ErrorValiationTest@54d9d12d]" started-at="2026-05-07T16:18:09 IST" name="tearDown" finished-at="2026-05-07T16:18:10 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.test.ErrorValiationTest@54d9d12d]" started-at="2026-05-07T16:18:10 IST" name="launchApplication" finished-at="2026-05-07T16:18:11 IST" duration-ms="954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValiation()[pri:0, instance:rahulshettyacademy.test.ErrorValiationTest@54d9d12d]" started-at="2026-05-07T16:18:11 IST" name="ProductErrorValiation" finished-at="2026-05-07T16:18:13 IST" duration-ms="2667" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=147.0.7727.138)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [588c207e2be7e1d6f4a9547d4a341e5b, findElement {using=css selector, value=.ng-animating}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\Swapnil\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62229}, goog:processID: 24760, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62229/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 588c207e2be7e1d6f4a9547d4a341e5b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=147.0.7727.138)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [588c207e2be7e1d6f4a9547d4a341e5b, findElement {using=css selector, value=.ng-animating}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\Swapnil\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62229}, goog:processID: 24760, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62229/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 588c207e2be7e1d6f4a9547d4a341e5b
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:429)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy12.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.isInvisible(ExpectedConditions.java:1663)
+at org.openqa.selenium.support.ui.ExpectedConditions$49.apply(ExpectedConditions.java:1651)
+at org.openqa.selenium.support.ui.ExpectedConditions$49.apply(ExpectedConditions.java:1647)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+at rahulshettyacademy.AbstractComponents.AbstractComponent.waitForElmentToDisapper(AbstractComponent.java:70)
+at rahulshettyacademy.pageObjects.ProductCatalogPage.addProductToCart(ProductCatalogPage.java:60)
+at rahulshettyacademy.test.ErrorValiationTest.ProductErrorValiation(ErrorValiationTest.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValiation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshettyacademy.test.ErrorValiationTest@54d9d12d]" started-at="2026-05-07T16:18:13 IST" name="tearDown" finished-at="2026-05-07T16:18:13 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- rahulshettyacademy.test.ErrorValiationTest -->
+    </test> <!-- Error validation Test -->
+  </suite> <!-- Suite -->
+</testng-results>
